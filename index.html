@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Based Neiro</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="main-nav">
+        <img src="logo.jpg" alt="Based Neiro Logo" class="logo" />
+        <ul class="main-menu">
+          <li>
+            <a href="https://discord.com/invite/e3DGRTtm7Q" aria-label="Discord"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://t.me/basedneironft" aria-label="Telegram"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://x.com/neironft" aria-label="Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://opensea.io/collection/based-neiro" aria-label="OpenSea">
+              <img src="opensea.svg" alt="OpenSea" width="24px" height="24px" />
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Based Neiro</h1>
+          <p>The Sister Of The Legendary DOGE</p>
+          <a href="#mint" class="button">Mint Now</a>
+        </div>
+        <div class="hero-image">
+          <img src="1.png" alt="Based Neiro Character" />
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-content">
+          <h2>About Neiro</h2>
+          <p>
+            ​Neiro is a community-driven project on the Base blockchain,
+            embodying the principles of decentralization and collaboration. As a
+            proud partner of Sheertopia and Based Africa, Neiro fosters a
+            vibrant ecosystem where members collectively contribute to its
+            growth and success. With a commitment to transparency and
+            inclusivity, Neiro empowers individuals to shape the future of its
+            platform, ensuring that the community remains at the heart of all
+            endeavors.​
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="3.png" alt="Neiro Character" />
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <div class="project-image">
+              <img src="$BNEIRO.png" alt="$BNEIRO Token" />
+            </div>
+            <div class="project-info">
+              <h3>$BNEIRO</h3>
+              <div class="project-buttons">
+                <button onclick="openPopup('bneiro')" class="btn">
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-image">
+              <img src="NO-BNEIRO.png" alt="NO-NEIRO Project" />
+            </div>
+            <div class="project-info">
+              <h3>NO-NEIRO</h3>
+              <div class="project-buttons">
+                <button onclick="openPopup('no-neiro')" class="btn">
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-image">
+              <img src="limited.png" alt="Limited Edition Neiro" />
+            </div>
+            <div class="project-info">
+              <h3>LIMITED EDITION NEIRO</h3>
+              <div class="project-buttons">
+                <button onclick="openPopup('limited')" class="btn">
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popups -->
+      <div id="bneiro" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('bneiro')">&times;</span>
+          <div class="popup-container">
+            <div class="popup-header">
+              <img src="11.png" alt="$BNEIRO Token" />
+              <h2>$BNEIRO</h2>
+            </div>
+            <p>
+              The $BNEIRO token is the native cryptocurrency of the Based Neiro
+              ecosystem. Built on the Base blockchain, it provides utility
+              across our platform, enabling holders to participate in
+              governance, access exclusive NFT drops, and interact with our
+              growing suite of decentralized applications. With deflationary
+              tokenomics and a commitment to community ownership, $BNEIRO
+              represents the future of our project's expansion into the wider
+              crypto ecosystem.
+            </p>
+            <div class="marquee-container">
+              <div class="marquee-images">
+                <a
+                  href="https://tokepad.xyz/market/0x877453085613d4927a9a0d9aced1e2b8a6a97e06"
+                  target="_blank"
+                >
+                  <img src="toke.jpg" alt="Tokepad Exchange" />
+                </a>
+                <a
+                  href="https://itunes.apple.com/app/id6456525694"
+                  target="_blank"
+                >
+                  <img src="bolide.png" alt="Bolide App" />
+                </a>
+                <a href="https://app.uniswap.org/swap" target="_blank">
+                  <img src="uniswap.png" alt="Uniswap" />
+                </a>
+                <a
+                  href="https://coinranking.com/coin/tU60ab1hk+basedneiro-bneiro"
+                  target="_blank"
+                >
+                  <img src="coinrank.png" alt="Coinranking" />
+                </a>
+                <a
+                  href="https://dexscreener.com/base/0x877453085613D4927A9A0D9ACED1e2b8a6A97e06"
+                  target="_blank"
+                >
+                  <img src="dex.png" alt="DexScreener" />
+                </a>
+                <a href="https://latoken.com/" target="_blank">
+                  <img src="lat.png" alt="LA Token" />
+                </a>
+                <a
+                  href="https://flooz.xyz/swap?network=base&tokenAddress=0x4f4f8173fc6562e4b10591532d73db575f28c4b1"
+                  target="_blank"
+                >
+                  <img src="flooz.jpg" alt="Flooz Exchange" />
+                </a>
+                <a href="https://www.fameex.com/en-US" target="_blank">
+                  <img src="fame.jpg" alt="FameEX" />
+                </a>
+                <!-- Duplicate images for continuous scrolling -->
+                <a
+                  href="https://tokepad.xyz/market/0x877453085613d4927a9a0d9aced1e2b8a6a97e06"
+                  target="_blank"
+                >
+                  <img src="toke.jpg" alt="Tokepad Exchange" />
+                </a>
+                <a
+                  href="https://itunes.apple.com/app/id6456525694"
+                  target="_blank"
+                >
+                  <img src="bolide.png" alt="Bolide App" />
+                </a>
+                <a href="https://app.uniswap.org/swap" target="_blank">
+                  <img src="uniswap.png" alt="Uniswap" />
+                </a>
+                <a
+                  href="https://coinranking.com/coin/tU60ab1hk+basedneiro-bneiro"
+                  target="_blank"
+                >
+                  <img src="coinrank.png" alt="Coinranking" />
+                </a>
+                <a
+                  href="https://dexscreener.com/base/0x877453085613D4927A9A0D9ACED1e2b8a6A97e06"
+                  target="_blank"
+                >
+                  <img src="dex.png" alt="DexScreener" />
+                </a>
+                <a href="https://latoken.com/" target="_blank">
+                  <img src="lat.png" alt="LA Token" />
+                </a>
+                <a
+                  href="https://flooz.xyz/swap?network=base&tokenAddress=0x4f4f8173fc6562e4b10591532d73db575f28c4b1"
+                  target="_blank"
+                >
+                  <img src="flooz.jpg" alt="Flooz Exchange" />
+                </a>
+                <a href="https://www.fameex.com/en-US" target="_blank">
+                  <img src="fame.jpg" alt="FameEX" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="no-neiro" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('no-neiro')">&times;</span>
+          <div class="popup-container">
+            <div class="popup-header">
+              <img src="NO-BNEIRO.png" alt="NO-NEIRO" />
+              <h2>NO-NEIRO</h2>
+            </div>
+            <p>
+              NO-NEIRO is our limited collection of anti-hero variants of the
+              original Neiro character. Each NO-NEIRO NFT features unique traits
+              and characteristics that contrast with the main Neiro collection.
+              Holders of NO-NEIRO NFTs gain access to special community events,
+              exclusive airdrops, and unique benefits within the Based Neiro
+              ecosystem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="limited" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('limited')">&times;</span>
+          <div class="popup-container">
+            <div class="popup-header">
+              <img src="limited.png" alt="Limited Edition Neiro" />
+              <h2>LIMITED EDITION NEIRO</h2>
+            </div>
+            <p>
+              Our Limited Edition Neiro collection represents the rarest and
+              most prestigious NFTs in the Based Neiro universe. With only a
+              handful ever to be minted, these exclusive pieces feature
+              extraordinary designs, special animations, and premium attributes
+              not found in our standard collections. Limited Edition Neiro
+              holders receive VIP status in our community, early access to all
+              future drops, and a greater allocation of $BNEIRO rewards.
+            </p>
+          </div>
+        </div>
+      </div>
+            
+      <!-- NFT Gallery Section -->
+<section id="nft-gallery" class="nft-gallery">
+  <h2 class="section-title">Our NFT Collection</h2>
+  
+  <div class="slider-container">
+    <div class="slider-button prev-button">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    
+    <div class="slider-wrapper">
+      <div class="slider">
+        <div class="slide">
+          <img src="no131.png" alt="Neiro NFT #1" class="nft-image" />
+          <div class="nft-info">
+            <h3>Neiro #001</h3>
+            <p class="nft-rarity">Rarity: Legendary</p>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="no625.png" alt="Neiro NFT #3" class="nft-image" />
+          <div class="nft-info">
+            <h3>Neiro #625</h3>
+            <p class="nft-rarity">Rarity: Epic</p>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="no7354.png" alt="Neiro NFT #11" class="nft-image" />
+          <div class="nft-info">
+            <h3>Neiro #7354</h3>
+            <p class="nft-rarity">Rarity: Rare</p>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="no8919.png" alt="NO-NEIRO NFT" class="nft-image" />
+          <div class="nft-info">
+            <h3>NO-NEIRO #8919</h3>
+            <p class="nft-rarity">Rarity: Ultra Rare</p>
+          </div>
+        </div>
+        
+        <div class="slide">
+          <img src="no9182.png" alt="Limited Edition Neiro" class="nft-image" />
+          <div class="nft-info">
+            <h3>Limited Edition #9182</h3>
+            <p class="nft-rarity">Rarity: Mythic</p>
+          </div>
+        </div>
+        
+        <!-- Add more slides as needed -->
+      </div>
+    </div>
+    
+    <div class="slider-button next-button">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+  </div>
+  
+  <div class="slider-dots">
+    <!-- Dots will be added by JavaScript -->
+  </div>
+  
+  <div class="nft-gallery-cta">
+    <p>Want to see more? Check out our complete collection on OpenSea.</p>
+    <a href="https://opensea.io/collection/based-neiro" class="button">View Collection</a>
+  </div>
+     
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo.jpg" alt="Based Neiro Logo" width="50px" />
+        </div>
+     
+        <div class="footer-social">
+          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Based Neiro • Built on Base by
+          <a href="https://x.com/ajayisunderated" class="ajay" target="_blank"
+            >Underrated Ajay</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
